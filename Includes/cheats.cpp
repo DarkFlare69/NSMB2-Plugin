@@ -73,7 +73,7 @@ namespace CTRPluginFramework
 		if (multipliers.empty())
 			for (const SNumber &i : g_Multipliers)
 				multipliers.push_back(i.multiplier);
-		Keyboard keyboard("Set Speed Multiplier\n\nSelect which speed multiplier you'd like to have", multipliers);
+		Keyboard keyboard("Set Speed Multiplier\n\nSelect which speed multiplier you'd like\nto have.", multipliers);
 		static int choice = 0;
 		if (entry->WasJustActivated())
 			choice = keyboard.Open();
@@ -174,7 +174,7 @@ namespace CTRPluginFramework
 			Process::Write32(offset + 0x4718, g_powerUps[choice].value);
 	}
 
-	void setBottomItem(MenuEntry *entry) // doesn't update item image, and if you don't have bottom screen item before, then nothing will happen
+	void setBottomPowerUp(MenuEntry *entry) // doesn't update item image, and if you don't have bottom screen item before, then nothing will happen
 	{
 		struct PowerUps
 		{
@@ -199,10 +199,10 @@ namespace CTRPluginFramework
 		if (powerUps.empty())
 			for (const PowerUps &i : gpowerUps)
 				powerUps.push_back(i.name);
-		Keyboard keyboard("Bottom Screen Item Selector\n\nSelect which item you'd like to have stored in the bottom screen.", powerUps);
+		Keyboard keyboard("Bottom Screen Power-Up Selector\n\nSelect which Power-Up you'd like to have\nstored in the bottom screen.", powerUps);
 		int choice = keyboard.Open();
 		if (entry->WasJustActivated())
-			OSD::Notify("Set Bottom Screen Item: Read the note for compatibility details!", Color::Red, Color::Black);
+			OSD::Notify("Set Bottom Screen Power-Up: Read the note for compatibility details!", Color::Red, Color::Black);
 		if (choice > -1 && Process::Read32(0x10230C, offset) && Process::Read32(offset + 0xB8, offset))
 			Process::Write8(offset + 0xDF, gpowerUps[choice].value);
 	}
@@ -240,7 +240,7 @@ namespace CTRPluginFramework
 	void setStarCoins(MenuEntry *entry)
 	{
 		u32 starCoins = 0;
-		Keyboard keyboard("Enter your desired star coin count, in hexadecimal.");
+		Keyboard keyboard("Enter your desired star coin count, in\nhexadecimal.");
 		if (keyboard.Open(starCoins) != -1 && starCoins >= 0 && Process::Read32(0x10230C, offset) && Process::Read32(offset + 0x15C, offset) && Process::Read32(offset - 0x10, offset))
 		{
 			Process::Write32(offset + 0x1E4, starCoins);
@@ -279,7 +279,7 @@ namespace CTRPluginFramework
 		if (powerUps.empty())
 			for (const PowerUp &i : g_powerUps)
 				powerUps.push_back(i.name);
-		Keyboard keyboard("Power-Up Selector\n\nSelect which Power-Up you'd like to have in the overworld.", powerUps);
+		Keyboard keyboard("Overworld Power-Up Selector\n\nSelect which Power-Up you'd like to have in\nthe overworld.", powerUps);
 		int choice = keyboard.Open();
 		if (choice > -1 && Process::Read32(0x101520, offset) && Process::Read32(offset - 0x14, offset) && Process::Read32(offset - 0x10, offset))
 			Process::Write8(offset + 0x48, g_powerUps[choice].value);
@@ -288,7 +288,7 @@ namespace CTRPluginFramework
 	void setOverworldCoins(MenuEntry *entry)
 	{
 		u32 overworldCoins = 0;
-		Keyboard keyboard("Enter your desired total coin count, in hexadecimal.");
+		Keyboard keyboard("Enter your desired total coin count, in\nhexadecimal.");
 		if (keyboard.Open(overworldCoins) != -1 && overworldCoins >= 0 && Process::Read32(0x10230C, offset) && Process::Read32(offset - 0xDC, offset) && Process::Read32(offset - 0x40, offset))
 			Process::Write32(offset + 0x4F4, overworldCoins);
 	}

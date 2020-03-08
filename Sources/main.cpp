@@ -27,7 +27,7 @@ namespace CTRPluginFramework
 		
 		powerUpCodes = new MenuFolder("Character & Power-Up Codes", "These codes involve your character, such as Power-Up status and defense.");
 		powerUpCodes->Append(new MenuEntry("Set Power-Up", nullptr, setPowerUp, "You will be able to choose which Power-Up you'd like to have."));
-		powerUpCodes->Append(new MenuEntry("Set Bottom Screen Item", nullptr, setBottomItem, "You will be able to choose which Power-Up you'd like to have stored on the bottom screen. This code only works when you enter a subworld or exit the level."));
+		powerUpCodes->Append(new MenuEntry("Set Bottom Screen Power-Up", nullptr, setBottomPowerUp, "You will be able to choose which Power-Up you'd like to have stored on the bottom screen. This code only works when you enter a subworld or exit the level."));
 		powerUpCodes->Append(new MenuEntry("Invincible", invincible, "You will not take damage from enemies or course hazards."));
 		powerUpCodes->Append(new MenuEntry("Infinite Star Power", infiniteStar, "You will always have the star power invincibility. You will not visibly have star power."));
 		powerUpCodes->Append(new MenuEntry("Everlasting Gold Block Head", infiniteGoldHead, "You will always have the gold block head after entering a subworld or obtaining it normally."));
@@ -125,7 +125,7 @@ exit:
 			MessageBox(welcome, "Welcome to DarkFlare & NintendoGamer28's NSMB2 plugin! This is the only time you'll see this message.\n\nPress A to continue to the next screen, where you'll review some usage instructions.")();
 			usage:
 			MessageBox(welcome, "To open the plugin menu, press Select.\n\nThis button can be remapped in the settings at any time.")();
-			if (MessageBox(welcome, "All codes and folders in this plugin will contain notes. These notes are very important because it will give you information about how to use any code. You can read a note by clicking on the blue (i) on the bottom screen while hovering over any code or folder in the menu.\n\nThat's all you need to know. Do you understand how to use the plugin?", DialogType::DialogYesNo).SetClear(ClearScreen::Both)())
+			if (MessageBox(welcome, "All codes and folders in this plugin will contain notes. These notes are very important because it will give you information about how to use any code. You can read a note by clicking on the blue (i) on the bottom screen while hovering over any code or folder in the menu.\n\nThat's all you need to know. Do you understand how to use the plugin?", DialogType::DialogYesNo).SetClear(ClearScreen::Top)())
 				MessageBox("Great! You can review this information at any time on the official GBAtemp page.")();
 			else
 			{

@@ -87,8 +87,8 @@
 070014d8 00000020 t std::vector<CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::SNumber, std::allocator<CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::SNumber> >::~vector()
 070014f8 00000020 t std::vector<CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp, std::allocator<CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp> >::~vector()
 070014f8 00000020 t std::vector<CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp, std::allocator<CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp> >::~vector()
-07001518 00000020 t std::vector<CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::PowerUps, std::allocator<CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::PowerUps> >::~vector()
-07001518 00000020 t std::vector<CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::PowerUps, std::allocator<CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::PowerUps> >::~vector()
+07001518 00000020 t std::vector<CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::PowerUps, std::allocator<CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::PowerUps> >::~vector()
+07001518 00000020 t std::vector<CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::PowerUps, std::allocator<CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::PowerUps> >::~vector()
 07001538 00000020 t std::vector<CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp, std::allocator<CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp> >::~vector()
 07001538 00000020 t std::vector<CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp, std::allocator<CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::PowerUp> >::~vector()
 07001558 00000054 T CTRPluginFramework::invincible(CTRPluginFramework::MenuEntry*)
@@ -110,34 +110,34 @@
 07001e78 000000b0 T CTRPluginFramework::infiniteGoldHead(CTRPluginFramework::MenuEntry*)
 07001f28 0000003c W std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
 07001f28 0000003c W std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
-07001f64 000001ec T CTRPluginFramework::displayStartMessage()
-07002150 00000064 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-070021b4 000009bc T CTRPluginFramework::main()
-07002b70 000000e0 W unsigned long CTRPluginFramework::Utils::Search<unsigned long>(unsigned long, unsigned long, std::vector<unsigned long, std::allocator<unsigned long> > const&)
-07002c50 000001d4 t CTRPluginFramework::ToggleTouchscreenForceOn()
-07002e24 00000004 T CTRPluginFramework::PatchProcess(CTRPluginFramework::FwkSettings&)
-07002e28 00000004 T CTRPluginFramework::OnProcessExit()
-07002e2c 00000170 W void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
-07002f9c 0000003c W void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
-07002fd8 00000270 T CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)
-07003248 000001d4 T CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)
-0700341c 00000218 T CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)
-07003634 000001e8 T CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)
-0700381c 00000078 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) [clone .isra.35]
-07003894 00000038 T OnLoadCro
-070038cc 00000170 T CTRPluginFramework::Initialize()
-07003a3c 000000b0 T CTRPluginFramework::ThreadExit()
-07003aec 00000060 T abort
-07003b4c 0000003c T CTRPluginFramework::ThreadInit(void*)
-07003b88 0000008c T LaunchMainThread
-07003c14 00000408 T CTRPluginFramework::KeepThreadMain(void*)
-0700401c 0000000c t _GLOBAL__sub_I_g_mainThread
-07004028 0000007c T CTRPluginFramework::OSD::Notify(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, CTRPluginFramework::Color const&, CTRPluginFramework::Color const&)
-070040a4 00000018 T CTRPluginFramework::Color::Color(unsigned char, unsigned char, unsigned char, unsigned char)
-070040a4 00000018 T CTRPluginFramework::Color::Color(unsigned char, unsigned char, unsigned char, unsigned char)
-070040bc 0000000c T CTRPluginFramework::Color::Color(unsigned long)
-070040bc 0000000c T CTRPluginFramework::Color::Color(unsigned long)
-070040c8 00000008 T CTRPluginFramework::Color::ToU32() const
+07001f64 000001e8 T CTRPluginFramework::displayStartMessage()
+0700214c 00000064 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+070021b0 000009bc T CTRPluginFramework::main()
+07002b6c 000000e0 W unsigned long CTRPluginFramework::Utils::Search<unsigned long>(unsigned long, unsigned long, std::vector<unsigned long, std::allocator<unsigned long> > const&)
+07002c4c 000001d4 t CTRPluginFramework::ToggleTouchscreenForceOn()
+07002e20 00000004 T CTRPluginFramework::PatchProcess(CTRPluginFramework::FwkSettings&)
+07002e24 00000004 T CTRPluginFramework::OnProcessExit()
+07002e28 00000170 W void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+07002f98 0000003c W void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+07002fd4 00000270 T CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)
+07003244 000001d4 T CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)
+07003418 00000218 T CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)
+07003630 000001e8 T CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)
+07003818 00000078 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) [clone .isra.35]
+07003890 00000038 T OnLoadCro
+070038c8 00000170 T CTRPluginFramework::Initialize()
+07003a38 000000b0 T CTRPluginFramework::ThreadExit()
+07003ae8 00000060 T abort
+07003b48 0000003c T CTRPluginFramework::ThreadInit(void*)
+07003b84 0000008c T LaunchMainThread
+07003c10 00000408 T CTRPluginFramework::KeepThreadMain(void*)
+07004018 0000000c t _GLOBAL__sub_I_g_mainThread
+07004024 0000007c T CTRPluginFramework::OSD::Notify(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, CTRPluginFramework::Color const&, CTRPluginFramework::Color const&)
+070040a0 00000018 T CTRPluginFramework::Color::Color(unsigned char, unsigned char, unsigned char, unsigned char)
+070040a0 00000018 T CTRPluginFramework::Color::Color(unsigned char, unsigned char, unsigned char, unsigned char)
+070040b8 0000000c T CTRPluginFramework::Color::Color(unsigned long)
+070040b8 0000000c T CTRPluginFramework::Color::Color(unsigned long)
+070040c4 00000008 T CTRPluginFramework::Color::ToU32() const
 070040d0 00000120 T CTRPluginFramework::Color::Fade(double)
 070041f0 00000040 T CTRPluginFramework::Color::operator<=(CTRPluginFramework::Color const&) const
 07004230 0000007c T CTRPluginFramework::Color::operator*(CTRPluginFramework::Color const&) const
@@ -2025,544 +2025,544 @@
 070708a0 0000001c R vtable for CTRPluginFramework::FloatingButton
 070708bc 0000001c R vtable for CTRPluginFramework::TouchKey
 070708d8 0000001c R vtable for CTRPluginFramework::NumericTextBox
-07072098 00000014 V vtable for CTRPluginFramework::MenuItem
-07072770 0000001c V vtable for CTRPluginFramework::MenuEntryTools
-07073b38 0000000c R typeinfo for std::bad_alloc
-07073b44 0000000d R typeinfo name for std::bad_alloc
-07073b54 00000014 R vtable for std::bad_alloc
-07073b8c 00000008 R typeinfo for __cxxabiv1::__forced_unwind
-07073b94 00000008 R typeinfo for __cxxabiv1::__foreign_exception
-07073b9c 0000000c R typeinfo for std::bad_exception
-07073ba8 00000008 R typeinfo for std::exception
-07073bb0 00000020 R typeinfo name for __cxxabiv1::__forced_unwind
-07073bd0 00000024 R typeinfo name for __cxxabiv1::__foreign_exception
-07073bf4 00000012 R typeinfo name for std::bad_exception
-07073c08 0000000d R typeinfo name for std::exception
-07073c18 00000014 R vtable for std::bad_exception
-07073c2c 0000000c R typeinfo for __cxxabiv1::__si_class_type_info
-07073c38 00000025 R typeinfo name for __cxxabiv1::__si_class_type_info
-07073c60 0000002c R vtable for __cxxabiv1::__si_class_type_info
-07073dbc 00000008 R typeinfo for std::type_info
-07073dc4 0000000d R typeinfo name for std::type_info
-07073dd4 0000000c R typeinfo for __cxxabiv1::__class_type_info
-07073de0 00000022 R typeinfo name for __cxxabiv1::__class_type_info
-07073e04 0000002c R vtable for __cxxabiv1::__class_type_info
-07073e30 0000000c R typeinfo for __gnu_cxx::recursive_init_error
-07073e3c 00000023 R typeinfo name for __gnu_cxx::recursive_init_error
-07073e60 00000014 R vtable for __gnu_cxx::recursive_init_error
-07073e74 0000000c R typeinfo for std::logic_error
-07073e80 0000000c R typeinfo for std::length_error
-07073e8c 0000000c R typeinfo for std::out_of_range
-07073e98 0000000c R typeinfo for std::invalid_argument
-07073ea4 00000010 R typeinfo name for std::logic_error
-07073eb4 00000011 R typeinfo name for std::length_error
-07073ec8 00000011 R typeinfo name for std::out_of_range
-07073edc 00000015 R typeinfo name for std::invalid_argument
-07073ef4 00000014 R vtable for std::logic_error
-07073f08 00000014 R vtable for std::length_error
-07073f1c 00000014 R vtable for std::out_of_range
-07073f30 00000014 R vtable for std::invalid_argument
-07074000 00000890 R __log2_data
-07074890 00000004 R _global_impure_ptr
-07074894 00000060 R __month_lengths
-07074980 00000014 r fpi.7554
-07074994 00000014 r fpinan.7590
-070749a8 00000028 r tinytens
-07074a0c 00000010 r blanks.8740
-07074a1c 00000010 r zeroes.8741
-07074a2c 000000fc R _C_time_locale
-07074cf4 00000015 r day_name.6253
-07074d0c 00000024 r mon_name.6254
-07074d30 00000101 R _ctype_
-07074e48 00000100 R __hexdig
-07074f48 0000000c R _C_numeric_locale
-07074fa0 00000028 R __mprec_bigtens
-07074fc8 000000c8 R __mprec_tens
-07075090 0000000c r p05.7474
-0707509c 0000006c R __action_table
-07075108 00000100 R __chclass
-07075208 0000006c R __state_table
-07075274 00000010 r blanks.8719
-07075284 00000010 r zeroes.8720
-07075294 00000022 r basefix.8286
-070752cc 000000bc r a1
-07075388 000000bc r a2
-07075444 0000005b r a3
-070754a0 00000070 r a6
-07075510 000000a2 r a7
-070755b4 00000040 r a8
-070755f4 0000172a r b02cf
-07076d20 00001a7c r d02f4
-0707879c 0000309c r categories
-0707b94c R __exidx_start
-0707bc04 R __exidx_end
-0707bc04 00000001 D CTRPluginFramework::g_keepRunning
-0707bc08 00000004 D CTRPluginFramework::FwkSettings::Header
-0707bc0c 00000004 D CTRPluginFramework::Preferences::MenuHotkeys
-0707bc10 00000001 D CTRPluginFramework::Preferences::_bmpCanBeLoaded
-0707bc14 00000004 D CTRPluginFramework::Preferences::ScreenshotKeys
-0707bc18 00000001 d CTRPluginFramework::PluginMenuHome::_RenderBottom()::framework
-0707bc1c 00000001 d CTRPluginFramework::_WriteLoadedFiles(CTRPluginFramework::MenuEntryTools*)::firstActivation
-0707bc20 00000004 d CTRPluginFramework::PluginMenuTools::_ProcessEvent(CTRPluginFramework::Event&)::selector
-0707bc24 00000004 D CTRPluginFramework::Screenshot::Screens
-0707bc28 00000004 D CTRPluginFramework::Screenshot::Hotkeys
-0707bc2c 00000001 D CTRPluginFramework::SystemImpl::Language
-0707bc2d 00000001 d CTRPluginFramework::EventManager::PopEvent(CTRPluginFramework::Event&, bool)::refresh
-0707bc30 00000004 D Search15
-0707bc34 00000004 D UnCheckedCheckbox
-0707bc38 00000004 D Unsplash15
-0707bc3c 00000004 D Plus25
-0707bc40 00000004 D GameControllerFilled25
-0707bc44 00000004 D About15
-0707bc48 00000004 D Trash25
-0707bc4c 00000004 D Cut25
-0707bc50 00000004 D CloseWindow20
-0707bc54 00000004 D AddFavoriteFilled25
-0707bc58 00000004 D ClearSymbolFilled15
-0707bc5c 00000004 D ClipboardFilled25
-0707bc60 00000004 D CheckedCheckbox
-0707bc64 00000004 D CutFilled25
-0707bc68 00000004 D CapsLockOn15
-0707bc6c 00000004 D TrashFilled25
-0707bc70 00000004 D RAM15
-0707bc74 00000004 D More15
-0707bc78 00000004 D InfoFilled25
-0707bc7c 00000004 D CloseWindowFilled20
-0707bc80 00000004 D HandCursor15
-0707bc84 00000004 D EnterKey15
-0707bc88 00000004 D Duplicate25
-0707bc8c 00000004 D Settings15
-0707bc90 00000004 D File15
-0707bc94 00000004 D AddFavorite25
-0707bc98 00000004 D Edit25
-0707bc9c 00000004 D DuplicateFilled25
-0707bca0 00000004 D Save25
-0707bca4 00000004 D Clipboard25
-0707bca8 00000004 D Info25
-0707bcac 00000004 D EditFilled25
-0707bcb0 00000004 D KeyboardFilled25
-0707bcb4 00000004 D PlusFilled25
-0707bcb8 00000004 D Shutdown15
-0707bcbc 00000004 D ClearSymbol15
-0707bcc0 00000004 D Maintenance15
-0707bcc4 00000004 D Controller15
-0707bcc8 00000004 D Grid15
-0707bccc 00000004 D Keyboard25
-0707bcd0 00000004 D CapsLockOnFilled15
-0707bcd4 00000004 D UserManualFilled15
-0707bcd8 00000004 D Rocket40
-0707bcdc 00000004 D Star15
-0707bce0 00000004 D EnterKeyFilled15
-0707bce4 00000004 D GameController25
-0707bce8 00000004 D FolderFilled
-0707bcec 00000004 D Restart15
-0707bcf0 000001f4 D opcode_names
-0707bee4 D __dso_handle
-0707bee8 00000004 D __cxxabiv1::__terminate_handler
-0707beec 00000004 D __cxxabiv1::__unexpected_handler
-0707bef0 00000004 D _impure_ptr
-0707bef8 00000460 d impure_data
-0707c358 00000408 D __malloc_av_
-0707c760 00000004 D __malloc_sbrk_base
-0707c764 00000004 D __malloc_trim_threshold
-0707c768 0000000c d __malloc_recursive_mutex
-0707c774 00000004 d __tz_mutex
-0707c778 00000008 D _tzname
-0707c780 0000000c D __atexit_recursive_mutex
-0707c790 00000058 d tzinfo
-0707c7e8 00000002 d numempty
-0707c7ec 0000016c D __global_locale
-0707c958 00000004 D environ
-0707c95c 0000000c d __env_recursive_mutex
-0707c968 D __TMC_END__
-0707c978 d _GLOBAL_OFFSET_TABLE_
-0707c984 D __tdata_lma
-0707c990 t __frame_dummy_init_array_entry
-0707c990 T __init_array_start
-0707c990 B __preinit_array_end
-0707c990 B __preinit_array_start
-0707c990 D __tdata_lma_end
-0707c9e8 t __do_global_dtors_aux_fini_array_entry
-0707c9e8 T __init_array_end
-0707c9ec B __c_bss_start
-0707c9ec 00000004 B CTRPluginFramework::offset
-0707c9f0 00000004 b CTRPluginFramework::freefly(CTRPluginFramework::MenuEntry*)::x
-0707c9f4 00000004 b CTRPluginFramework::freefly(CTRPluginFramework::MenuEntry*)::y
-0707c9f8 00000004 b CTRPluginFramework::rapidFire(CTRPluginFramework::MenuEntry*)::counter
-0707c9fc 00000004 b CTRPluginFramework::ToggleTouchscreenForceOn()::patchAddress
-0707ca00 00000004 b CTRPluginFramework::ToggleTouchscreenForceOn()::original
-0707ca04 00000004 b guard variable for CTRPluginFramework::ToggleTouchscreenForceOn()::pattern
-0707ca08 0000000c b CTRPluginFramework::ToggleTouchscreenForceOn()::pattern
-0707ca14 00000004 b guard variable for CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::g_Multipliers
-0707ca18 0000000c b CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::g_Multipliers
-0707ca24 00000004 b guard variable for CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::multipliers
-0707ca28 0000000c b CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::multipliers
-0707ca34 00000004 b CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::choice
-0707ca38 00000004 b guard variable for CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
-0707ca3c 0000000c b CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
-0707ca48 00000004 b guard variable for CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
-0707ca4c 0000000c b CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
-0707ca58 00000004 b guard variable for CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::gpowerUps
-0707ca5c 0000000c b CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::gpowerUps
-0707ca68 00000004 b guard variable for CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::powerUps
-0707ca6c 0000000c b CTRPluginFramework::setBottomItem(CTRPluginFramework::MenuEntry*)::powerUps
-0707ca78 00000004 b guard variable for CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
-0707ca7c 0000000c b CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
-0707ca88 00000004 b guard variable for CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
-0707ca8c 0000000c b CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
-0707ca98 00000004 b g_onLoadCroLock
-0707ca9c 00000004 B g_mainThread
-0707caa0 00000004 B CTRPluginFramework::g_keepEvent
-0707caa4 00000004 B CTRPluginFramework::g_continueGameEvent
-0707caa8 0000005c b CTRPluginFramework::exception_data
-0707cb04 00000004 B CTRPluginFramework::g_keepThreadHandle
-0707cb08 00000018 b g_onLoadCroHook
-0707cb20 00000008 B CTRPluginFramework::_sdmcArchive
-0707cb28 00000004 B g_gspEventThreadPriority
-0707cb2c 00000004 B CTRPluginFramework::g_resumeEvent
-0707cb30 00001000 b CTRPluginFramework::keepThreadStack
-0707db30 00000004 B __ctru_heap_size
-0707db34 00000004 B CTRPluginFramework::Color::Black
-0707db38 00000004 B CTRPluginFramework::Color::White
-0707db3c 00000004 B CTRPluginFramework::Color::Red
-0707db40 00000004 B CTRPluginFramework::Color::Lime
-0707db44 00000004 B CTRPluginFramework::Color::Blue
-0707db48 00000004 B CTRPluginFramework::Color::Yellow
-0707db4c 00000004 B CTRPluginFramework::Color::Cyan
-0707db50 00000004 B CTRPluginFramework::Color::Magenta
-0707db54 00000004 B CTRPluginFramework::Color::Silver
-0707db58 00000004 B CTRPluginFramework::Color::Gray
-0707db5c 00000004 B CTRPluginFramework::Color::Maroon
-0707db60 00000004 B CTRPluginFramework::Color::Olive
-0707db64 00000004 B CTRPluginFramework::Color::Green
-0707db68 00000004 B CTRPluginFramework::Color::Purple
-0707db6c 00000004 B CTRPluginFramework::Color::Teal
-0707db70 00000004 B CTRPluginFramework::Color::Navy
-0707db74 00000004 B CTRPluginFramework::Color::BlackGrey
-0707db78 00000004 B CTRPluginFramework::Color::Brown
-0707db7c 00000004 B CTRPluginFramework::Color::DarkGrey
-0707db80 00000004 B CTRPluginFramework::Color::DeepSkyBlue
-0707db84 00000004 B CTRPluginFramework::Color::DimGrey
-0707db88 00000004 B CTRPluginFramework::Color::DodgerBlue
-0707db8c 00000004 B CTRPluginFramework::Color::Gainsboro
-0707db90 00000004 B CTRPluginFramework::Color::ForestGreen
-0707db94 00000004 B CTRPluginFramework::Color::LimeGreen
-0707db98 00000004 B CTRPluginFramework::Color::Orange
-0707db9c 00000004 B CTRPluginFramework::Color::SkyBlue
-0707dba0 00000004 B CTRPluginFramework::Color::Turquoise
-0707dba4 00000004 b CTRPluginFramework::g_runningInstance
-0707dba8 00000004 b CTRPluginFramework::ConvertToFloat(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
-0707dbb0 00000008 b CTRPluginFramework::ConvertToDouble(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
-0707dbb8 00000008 b CTRPluginFramework::ConvertToU64(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
-0707dbc0 00000004 b CTRPluginFramework::ConvertToU32(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
-0707dbc4 00000001 b CTRPluginFramework::ConvertToU8(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
-0707dbc6 00000002 b CTRPluginFramework::ConvertToU16(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
-0707dbc8 00000180 b CTRPluginFramework::g_keyName
-0707dd48 00000004 B CTRPluginFramework::__fileHandle
-0707dd50 00000008 B CTRPluginFramework::Time::Zero
-0707dd58 00000004 B CTRPluginFramework::System::OnAbort
-0707dd5c 00000004 B CTRPluginFramework::Controller::_keysDown
-0707dd60 00000004 B CTRPluginFramework::Controller::_keysHeld
-0707dd64 00000004 B CTRPluginFramework::Controller::_keysReleased
-0707dd68 000009c4 b CTRPluginFramework::g_rng
-0707e730 00000001 B CTRPluginFramework::Preferences::EcoMemoryMode
-0707e734 00000004 B CTRPluginFramework::Preferences::topBackgroundImage
-0707e738 00000004 B CTRPluginFramework::Preferences::bottomBackgroundImage
-0707e73c 00000001 B CTRPluginFramework::Preferences::AutoLoadCheats
-0707e73d 00000001 B CTRPluginFramework::Preferences::AutoLoadFavorites
-0707e73e 00000001 B CTRPluginFramework::Preferences::AutoSaveCheats
-0707e73f 00000001 B CTRPluginFramework::Preferences::AutoSaveFavorites
-0707e740 00000001 B CTRPluginFramework::Preferences::DrawTouchCursor
-0707e741 00000001 B CTRPluginFramework::Preferences::ShowBottomFps
-0707e742 00000001 B CTRPluginFramework::Preferences::ShowTopFps
-0707e743 00000001 B CTRPluginFramework::Preferences::UseFloatingBtn
-0707e744 00000001 B CTRPluginFramework::Preferences::_cheatsAlreadyLoaded
-0707e745 00000001 B CTRPluginFramework::Preferences::_favoritesAlreadyLoaded
-0707e748 00000070 B CTRPluginFramework::Preferences::Settings
-0707e7b8 00000018 B CTRPluginFramework::Preferences::CheatsFile[abi:cxx11]
-0707e7d0 00000018 B CTRPluginFramework::Preferences::ScreenshotPath[abi:cxx11]
-0707e7e8 00000018 B CTRPluginFramework::Preferences::ScreenshotPrefix[abi:cxx11]
-0707e800 00000001 B CTRPluginFramework::Preferences::DisplayFilesLoading
-0707e801 00000001 B CTRPluginFramework::Preferences::DrawTouchCoord
-0707e802 00000001 B CTRPluginFramework::Preferences::InjectBOnMenuClose
-0707e804 00000004 b CTRPluginFramework::defaultSysFont
-0707e808 00000004 B CTRPluginFramework::g_fontAllocated
-0707e80c 00000004 b CTRPluginFramework::tileData
-0707e810 00000004 b CTRPluginFramework::glyph
-0707e814 0000000c B CTRPluginFramework::Font::_mutex
-0707e820 00000004 B CTRPluginFramework::g_glyphAllocated
-0707e824 00000028 B CTRPluginFramework::Window::BottomWindow
-0707e84c 00000028 B CTRPluginFramework::Window::TopWindow
-0707e874 00000004 B CTRPluginFramework::RendererPriv::g_customColor
-0707e878 00000008 B CTRPluginFramework::Renderer::hookContext
-0707e880 00000004 b guard variable for CTRPluginFramework::Renderer::EndFrame(bool)::background
-0707e884 00000004 b CTRPluginFramework::Renderer::EndFrame(bool)::background
-0707e888 00000004 b guard variable for CTRPluginFramework::Renderer::DrawRoundedRectangle(CTRPluginFramework::Rect<int> const&, CTRPluginFramework::Color const&, CTRPluginFramework::Color const&)::_lines
-0707e88c 0000000c b CTRPluginFramework::Renderer::DrawRoundedRectangle(CTRPluginFramework::Rect<int> const&, CTRPluginFramework::Color const&, CTRPluginFramework::Color const&)::_lines
-0707e898 0000000c B CTRPluginFramework::OSDImpl::RecLock
-0707e8a4 0000000c B CTRPluginFramework::OSDImpl::Notifications[abi:cxx11]
-0707e8b0 00000018 B CTRPluginFramework::OSDImpl::TopScreen
-0707e8c8 00000018 B CTRPluginFramework::OSDImpl::BottomScreen
-0707e8e0 00000001 B CTRPluginFramework::OSDImpl::IsFramePaused
-0707e8e4 00000008 B CTRPluginFramework::OSDImpl::OnFramePaused
-0707e8ec 00000004 B CTRPluginFramework::OSDImpl::FramesToPlay
-0707e8f0 00000008 B CTRPluginFramework::OSDImpl::OnFrameResume
-0707e8f8 00000018 B CTRPluginFramework::OSDImpl::OSDHook
-0707e910 00000010 b CTRPluginFramework::InstallOSD()::returnCode
-0707e920 00000004 B CTRPluginFramework::OSDImpl::HookReturn
-0707e924 00000008 B CTRPluginFramework::OSDImpl::OnNewFrameEvent
-0707e92c 00000024 B CTRPluginFramework::OSDImpl::FloatingBtn
-0707e950 0000000c B CTRPluginFramework::OSDImpl::Callbacks
-0707e95c 00000004 b CTRPluginFramework::g_second
-0707e960 00000010 b CTRPluginFramework::g_fpsClock
-0707e970 00000004 B CTRPluginFramework::OSDImpl::WaitingForScreenshot
-0707e974 00000001 B CTRPluginFramework::OSDImpl::DrawSaveIcon
-0707e975 00000001 B CTRPluginFramework::OSDImpl::MessColors
-0707e978 00000004 B CTRPluginFramework::PluginMenuImpl::_runningInstance
-0707e97c 00000004 b CTRPluginFramework::PluginMenuImpl::Run()::count
-0707e980 00000004 b guard variable for CTRPluginFramework::PluginMenuImpl::Run()::konamicode
-0707e988 00000020 b CTRPluginFramework::PluginMenuImpl::Run()::konamicode
-0707e9a8 00000004 B CTRPluginFramework::MenuItem::_uidCounter
-0707e9b0 00000004 b CTRPluginFramework::g_ctrpfString
-0707e9b4 00000004 b CTRPluginFramework::g_bymeString
-0707e9b8 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::fastScroll
-0707e9c0 00000008 b CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::fastScroll
-0707e9c8 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
-0707e9d0 00000008 b CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
-0707e9d8 00000004 b CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::last
-0707e9dc 00000004 b CTRPluginFramework::PluginMenuHome::_showStarredBtn_OnClick()::bak
-0707e9e0 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::_RenderBottom()::creditClock
-0707e9e8 00000008 b CTRPluginFramework::PluginMenuHome::_RenderBottom()::creditClock
-0707e9f0 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, int&, CTRPluginFramework::Time&)::top
-0707e9f4 00000004 b CTRPluginFramework::PluginMenuHome::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, int&, CTRPluginFramework::Time&)::top
-0707e9f8 00000004 b CTRPluginFramework::g_mode
-0707e9fc 00000004 b CTRPluginFramework::g_OpenFileLock
-0707ea00 00000004 b CTRPluginFramework::g_HookMode
-0707ea08 00000040 b CTRPluginFramework::g_hookExportFile
-0707ea48 00000010 b CTRPluginFramework::g_returncode
-0707ea58 00000018 b CTRPluginFramework::g_FsTryOpenFileHook
-0707ea70 00000004 B CTRPluginFramework::g_FsTryOpenFileAddress
-0707ea74 00000001 b CTRPluginFramework::InitFsTryOpenFileHook()::isInitialized
-0707ea78 00000004 b CTRPluginFramework::g_screenshotEntry
-0707ea7c 00000004 b guard variable for CTRPluginFramework::PluginMenuTools::_RenderBottom()::xpos
-0707ea80 00000004 b CTRPluginFramework::PluginMenuTools::_RenderBottom()::xpos
-0707ea84 00000004 b guard variable for CTRPluginFramework::PluginMenuTools::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::task
-0707ea88 00000004 b CTRPluginFramework::PluginMenuTools::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::task
-0707ea8c 00000004 b guard variable for CTRPluginFramework::SubMenu::Draw()::background
-0707ea90 00000010 b CTRPluginFramework::SubMenu::Draw()::background
-0707eaa0 00000004 B CTRPluginFramework::__g_hexEditor
-0707eaa4 00000004 b guard variable for CTRPluginFramework::HexEditor::_PromptForAddress(int)::background
-0707eaa8 00000010 b CTRPluginFramework::HexEditor::_PromptForAddress(int)::background
-0707eab8 00000001 b CTRPluginFramework::HexEditor::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&)::keysAreDisabled
-0707eabc 00000004 b guard variable for CTRPluginFramework::GuideReader::Draw()::background
-0707eac0 00000010 b CTRPluginFramework::GuideReader::Draw()::background
-0707ead0 00000010 b CTRPluginFramework::KeyboardImpl::_RenderTop()::background2
-0707eae0 00000010 b CTRPluginFramework::KeyboardImpl::_RenderTop()::background1
-0707eaf0 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderTop()::background1
-0707eaf4 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderTop()::background2
-0707eaf8 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderBottom()::background
-0707eafc 00000010 b CTRPluginFramework::KeyboardImpl::_RenderBottom()::background
-0707eb0c 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderBottom()::background2
-0707eb10 00000010 b CTRPluginFramework::KeyboardImpl::_RenderBottom()::background2
-0707eb20 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderBottom()::clampArea
-0707eb24 00000010 b CTRPluginFramework::KeyboardImpl::_RenderBottom()::clampArea
-0707eb34 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_CheckKeys()::backspacetimer
-0707eb38 00000008 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::backspacetimer
-0707eb40 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastModeWaitTime
-0707eb48 00000008 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastModeWaitTime
-0707eb50 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastClearingFrame
-0707eb58 00000008 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastClearingFrame
-0707eb60 00000004 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::backspaceFastMode
-0707eb64 0000000c B CTRPluginFramework::KeyboardImpl::_QwertyKeys
-0707eb70 0000000c B CTRPluginFramework::KeyboardImpl::_DecimalKeys
-0707eb7c 0000000c B CTRPluginFramework::KeyboardImpl::_HexaDecimalKeys
-0707eb88 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
-0707eb90 00000008 b CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
-0707eb98 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::buttons
-0707eb9c 00000010 b CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::buttons
-0707ebac 00000004 b CTRPluginFramework::__pmARinstance
-0707ebb0 00000004 b guard variable for CTRPluginFramework::PluginMenuActionReplay::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time const&)::top
-0707ebb4 00000004 b CTRPluginFramework::PluginMenuActionReplay::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time const&)::top
-0707ebb8 00000010 b CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background
-0707ebc8 00000010 b CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background2
-0707ebd8 00000004 b guard variable for CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background
-0707ebdc 00000004 b guard variable for CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background2
-0707ebe0 00000004 b guard variable for CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::waitLogo
-0707ebe8 00000010 b CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::waitLogo
-0707ebf8 00000004 b CTRPluginFramework::g_radioId
-0707ebfc 00000004 B CTRPluginFramework::PluginMenuExecuteLoop::_firstInstance
-0707ec00 00000004 B CTRPluginFramework::PluginMenuExecuteLoop::_builtinLock
-0707ec04 00000004 B CTRPluginFramework::PluginMenuExecuteLoop::_arLock
-0707ec08 00000004 B CTRPluginFramework::_pool
-0707ec10 00000008 B CTRPluginFramework::Screenshot::_timer
-0707ec18 00000008 B CTRPluginFramework::Screenshot::_readyEvent
-0707ec20 00000008 B CTRPluginFramework::Screenshot::_resumeEvent
-0707ec28 00000018 B CTRPluginFramework::Screenshot::Prefix[abi:cxx11]
-0707ec40 00000004 B CTRPluginFramework::Screenshot::_filecount
-0707ec44 00000018 B CTRPluginFramework::Screenshot::Path[abi:cxx11]
-0707ec5c 00000004 B CTRPluginFramework::Screenshot::_display
-0707ec60 00000004 B CTRPluginFramework::Screenshot::_mode
-0707ec68 00000008 B CTRPluginFramework::Screenshot::Timer
-0707ec70 00000001 B CTRPluginFramework::Screenshot::IsEnabled
-0707ec74 00000004 B CTRPluginFramework::Screenshot::_task
-0707ec78 00000004 B CTRPluginFramework::Screenshot::_count
-0707ec7c 00000008 b CTRPluginFramework::g_sleepEvent
-0707ec84 00000001 B CTRPluginFramework::SystemImpl::IsNew3DS
-0707ec88 00000004 B CTRPluginFramework::SystemImpl::CFWVersion
-0707ec8c 00000004 B CTRPluginFramework::SystemImpl::RosalinaHotkey
-0707ec90 00000004 B CTRPluginFramework::SystemImpl::AptStatus
-0707ec94 00000004 B CTRPluginFramework::HookManager::instance
-0707ec98 00000078 B CTRPluginFramework::Scheduler::_singleton
-0707ed10 00000040 b CTRPluginFramework::_topBuf
-0707ed50 00000004 B CTRPluginFramework::ScreenImpl::Top
-0707ed54 00000040 b CTRPluginFramework::_botBuf
-0707ed94 00000004 B CTRPluginFramework::ScreenImpl::Bottom
-0707ed98 0000000c b CTRPluginFramework::Heap::_mutex
-0707eda4 00000004 B CTRPluginFramework::Heap::__ctrpf_heap
-0707eda8 00000004 B CTRPluginFramework::Heap::__ctrpf_heap_size
-0707edac 00000008 b CTRPluginFramework::Heap::g_heapPool
-0707edb4 0000000c b sAddrMap
-0707edc0 00000018 B CTRPluginFramework::FSPath::CurrentWorkingDirectory[abi:cxx11]
-0707edd8 0000000c B CTRPluginFramework::FSPath::FSMutex
-0707ede8 00000004 B CTRPluginFramework::ProcessImpl::KProcessPtr
-0707edec 00000064 B CTRPluginFramework::ProcessImpl::CodeSet
-0707ee50 00000004 B CTRPluginFramework::ProcessImpl::ProcessId
-0707ee54 00000004 B CTRPluginFramework::ProcessImpl::MainThread
-0707ee58 00000008 B CTRPluginFramework::ProcessImpl::TitleId
-0707ee60 00000004 B CTRPluginFramework::ProcessImpl::ProcessHandle
-0707ee64 00000004 B CTRPluginFramework::ProcessImpl::IsPaused
-0707ee68 0000000c B CTRPluginFramework::ProcessImpl::MemoryMutex
-0707ee74 0000000c B CTRPluginFramework::ProcessImpl::MemRegions
-0707ee80 00000010 B CTRPluginFramework::ProcessImpl::InvalidRegion
-0707ee90 00000001 b CTRPluginFramework::EventManager::ProcessEvents()::isTouching
-0707ee92 00000004 b CTRPluginFramework::EventManager::ProcessEvents()::firstTouch
-0707ee98 0000000c b _mutex
-0707eea4 00000008 b sVramPool
-0707eeac 0000000c b sAddrMap
-0707eeb8 00000004 b srvRefCount
-0707eebc 00000004 b srv2Handle
-0707eec0 00000004 b errfRefCount
-0707eec4 00000004 b errfHandle
-0707eec8 00000004 b sharedFontAddr
-0707eecc 00000004 b arbiter
-0707eed0 00000004 b cfguRefCount
-0707eed4 00000004 b cfguHandle
-0707eed8 00000004 b fsuHandle
-0707eee0 00000080 b fsExemptArchives
-0707ef60 00000004 b fsuRefCount
-0707ef64 00000001 B fs
-0707ef68 0000000c b aptFirstHook
-0707ef74 00000004 b serviceName.7785
-0707ef78 00000004 b aptRefCount
-0707ef7c 0000000c b aptEvents
-0707ef88 00000008 b aptSleepEvent
-0707ef90 00000004 b aptEventHandlerThread
-0707ef94 00000004 b aptMessageFunc
-0707ef98 00000004 b aptMessageFuncData
-0707ef9c 00000001 b aptHomeButtonState
-0707ef9d 00000001 b flagInit.8135
-0707ef9e 00000001 b flagValue.8136
-0707efa0 00001000 b aptParameters
-0707ffa0 00001000 b __stack
-07080fa0 00000004 b amRefCount
-07080fa4 00000004 b amHandle
-07080fa8 00000004 b acRefCount
-07080fac 00000004 b acHandle
-07080fb0 00000004 b hidRefCount
-07080fb4 00000004 b kOld
-07080fb8 00000004 b kHeld
-07080fbc 00000004 b cPos
-07080fc0 00000004 b tPos
-07080fc4 00000006 b aVec
-07080fca 00000006 b gRate
-07080fd0 00000004 b kDown
-07080fd4 00000004 b kUp
-07080fd8 00000004 b gspEventData
-07080fdc 00000038 b gspEvents
-07081014 0000001c b gspEventCounts
-07081030 00000001 b gspRunEvents
-07081034 00000004 b gspRefCount
-07081038 00000004 b gfxSharedMemory
-0708103c 00000001 b gfxThreadID
-07081040 00000004 b irrstRefCount
-07081044 00000004 b kHeld
-07081048 00000004 b csPos
-0708104c 00000004 b g_mainThreadVars
-07081050 b saved_stack
-07081058 00000004 b guard variable for CTRPluginFramework::LineWriter::endl[abi:cxx11]()::end
-0708105c 00000018 b CTRPluginFramework::LineWriter::endl[abi:cxx11]()::end
-07081074 0000000c B CTRPluginFramework::g_codeTypes
-07081080 00000004 b guard variable for CTRPluginFramework::ActionReplay_ProcessString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::colors
-07081084 0000000c b CTRPluginFramework::ActionReplay_ProcessString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::colors
-07081090 00000001 b CTRPluginFramework::g_condAgainstData
-07081091 00000001 b CTRPluginFramework::g_newCondDataToggle
-07081094 00000004 b CTRPluginFramework::__arCodeEditor
-07081098 00000004 b guard variable for CTRPluginFramework::ARCodeEditor::_ReloadCodeLines()::tempar
-0708109c 0000000c b CTRPluginFramework::ARCodeEditor::_ReloadCodeLines()::tempar
-070810a8 00000001 b CTRPluginFramework::ARCodeEditor::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&)::isInHexEditor
-070810b0 00000004 b guard variable for CTRPluginFramework::Button::Update(bool, CTRPluginFramework::Vector<int> const&)::halfSecond
-070810b8 00000008 b CTRPluginFramework::Button::Update(bool, CTRPluginFramework::Vector<int> const&)::halfSecond
-070810c0 00000004 b guard variable for CTRPluginFramework::GatewayRAMDumper::_DrawProgress()::logo
-070810c8 00000010 b CTRPluginFramework::GatewayRAMDumper::_DrawProgress()::logo
-070810d8 00000001 b CTRPluginFramework::g_progressLoop
-070810e0 00000004 b guard variable for CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_fastScroll
-070810e8 00000008 b CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_fastScroll
-070810f0 00000004 b guard variable for CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_startFastScroll
-070810f8 00000008 b CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_startFastScroll
-07081100 00000004 b CTRPluginFramework::__converter
-07081104 00000008 b sMappablePool
-0708110c 0000000c b sAddrMap
-07081118 00000004 B CTRPluginFramework::ARHandler::ActiveData
-0708111c 00000001 B CTRPluginFramework::ARHandler::ExitCodeImmediately
-07081120 00000008 B CTRPluginFramework::ARHandler::Offset
-07081128 00000004 B CTRPluginFramework::ARHandler::ActiveOffset
-0708112c 00000010 B CTRPluginFramework::ARHandler::Data
-0708113c 00000008 B CTRPluginFramework::ARHandler::Storage
-07081144 00000004 B CTRPluginFramework::ARHandler::ActiveStorage
-07081148 00000001 b CTRPluginFramework::ToggleFloat
-0708114c 00000004 b CTRPluginFramework::g_context
-07081150 00000fa0 b CTRPluginFramework::arStack
-070820f0 b completed.10351
-070820f4 b object.10356
-0708210c 00000004 b (anonymous namespace)::__new_handler
-07082110 00000010 b (anonymous namespace)::emergency_pool
-07082120 0000000c b eh_globals
-0708212c 00000010 V std::string::_Rep::_S_empty_rep_storage
-0708213c 00000028 B __malloc_current_mallinfo
-07082164 00000004 B __malloc_max_sbrked_mem
-07082168 00000004 B __malloc_max_total_mem
-0708216c 00000004 B __malloc_top_pad
-07082170 0000000b b __tzname_dst
-0708217c 0000000b b __tzname_std
-07082188 00000004 b prev_tzenv
-0708218c 00000004 B _daylight
-07082190 00000004 B _timezone
-07082194 00000004 b initial_env
-07082198 00000004 b heap_start.7414
-0708219c 00000004 B fake_heap_end
-070821a0 00000004 B fake_heap_start
-070821a4 00000048 B __syscalls
-070821ec 00000004 B g_sharedFont
-070821f0 00000004 B charPerSheet
-070821f4 00000004 B hidMemHandle
-070821f8 00000004 B hidHandle
-070821fc 00000014 B hidEvents
-07082210 00000004 B hidSharedMem
-07082214 00000004 B gspEventThread
-07082218 00000004 B gspEvent
-0708221c 00000004 B gspGpuHandle
-07082220 00000004 B gspSharedMemHandle
-07082224 00000004 B gspThreadEventHandle
-07082228 00000004 B irrstMemHandle
-0708222c 00000004 B irrstEvent
-07082230 00000004 B irrstHandle
-07082234 00000004 B irrstSharedMem
-07082238 00000004 B __ctru_linear_heap
-0708223c 00000004 B __tmp
-07082240 00000004 B __ctru_linear_heap_size
-07082244 00000004 B __system_retAddr
-07082248 00000004 B __ctru_heap
-0708224c B __c_bss_end
-0708224c B __tls_start
-0708226c A __end__
-0708226c B __tls_end
+070720b4 00000014 V vtable for CTRPluginFramework::MenuItem
+0707278c 0000001c V vtable for CTRPluginFramework::MenuEntryTools
+07073b54 0000000c R typeinfo for std::bad_alloc
+07073b60 0000000d R typeinfo name for std::bad_alloc
+07073b70 00000014 R vtable for std::bad_alloc
+07073ba8 00000008 R typeinfo for __cxxabiv1::__forced_unwind
+07073bb0 00000008 R typeinfo for __cxxabiv1::__foreign_exception
+07073bb8 0000000c R typeinfo for std::bad_exception
+07073bc4 00000008 R typeinfo for std::exception
+07073bcc 00000020 R typeinfo name for __cxxabiv1::__forced_unwind
+07073bec 00000024 R typeinfo name for __cxxabiv1::__foreign_exception
+07073c10 00000012 R typeinfo name for std::bad_exception
+07073c24 0000000d R typeinfo name for std::exception
+07073c34 00000014 R vtable for std::bad_exception
+07073c48 0000000c R typeinfo for __cxxabiv1::__si_class_type_info
+07073c54 00000025 R typeinfo name for __cxxabiv1::__si_class_type_info
+07073c7c 0000002c R vtable for __cxxabiv1::__si_class_type_info
+07073dd8 00000008 R typeinfo for std::type_info
+07073de0 0000000d R typeinfo name for std::type_info
+07073df0 0000000c R typeinfo for __cxxabiv1::__class_type_info
+07073dfc 00000022 R typeinfo name for __cxxabiv1::__class_type_info
+07073e20 0000002c R vtable for __cxxabiv1::__class_type_info
+07073e4c 0000000c R typeinfo for __gnu_cxx::recursive_init_error
+07073e58 00000023 R typeinfo name for __gnu_cxx::recursive_init_error
+07073e7c 00000014 R vtable for __gnu_cxx::recursive_init_error
+07073e90 0000000c R typeinfo for std::logic_error
+07073e9c 0000000c R typeinfo for std::length_error
+07073ea8 0000000c R typeinfo for std::out_of_range
+07073eb4 0000000c R typeinfo for std::invalid_argument
+07073ec0 00000010 R typeinfo name for std::logic_error
+07073ed0 00000011 R typeinfo name for std::length_error
+07073ee4 00000011 R typeinfo name for std::out_of_range
+07073ef8 00000015 R typeinfo name for std::invalid_argument
+07073f10 00000014 R vtable for std::logic_error
+07073f24 00000014 R vtable for std::length_error
+07073f38 00000014 R vtable for std::out_of_range
+07073f4c 00000014 R vtable for std::invalid_argument
+07074020 00000890 R __log2_data
+070748b0 00000004 R _global_impure_ptr
+070748b4 00000060 R __month_lengths
+070749a0 00000014 r fpi.7554
+070749b4 00000014 r fpinan.7590
+070749c8 00000028 r tinytens
+07074a2c 00000010 r blanks.8740
+07074a3c 00000010 r zeroes.8741
+07074a4c 000000fc R _C_time_locale
+07074d14 00000015 r day_name.6253
+07074d2c 00000024 r mon_name.6254
+07074d50 00000101 R _ctype_
+07074e68 00000100 R __hexdig
+07074f68 0000000c R _C_numeric_locale
+07074fc0 00000028 R __mprec_bigtens
+07074fe8 000000c8 R __mprec_tens
+070750b0 0000000c r p05.7474
+070750bc 0000006c R __action_table
+07075128 00000100 R __chclass
+07075228 0000006c R __state_table
+07075294 00000010 r blanks.8719
+070752a4 00000010 r zeroes.8720
+070752b4 00000022 r basefix.8286
+070752ec 000000bc r a1
+070753a8 000000bc r a2
+07075464 0000005b r a3
+070754c0 00000070 r a6
+07075530 000000a2 r a7
+070755d4 00000040 r a8
+07075614 0000172a r b02cf
+07076d40 00001a7c r d02f4
+070787bc 0000309c r categories
+0707b96c R __exidx_start
+0707bc24 R __exidx_end
+0707bc24 00000001 D CTRPluginFramework::g_keepRunning
+0707bc28 00000004 D CTRPluginFramework::FwkSettings::Header
+0707bc2c 00000004 D CTRPluginFramework::Preferences::MenuHotkeys
+0707bc30 00000001 D CTRPluginFramework::Preferences::_bmpCanBeLoaded
+0707bc34 00000004 D CTRPluginFramework::Preferences::ScreenshotKeys
+0707bc38 00000001 d CTRPluginFramework::PluginMenuHome::_RenderBottom()::framework
+0707bc3c 00000001 d CTRPluginFramework::_WriteLoadedFiles(CTRPluginFramework::MenuEntryTools*)::firstActivation
+0707bc40 00000004 d CTRPluginFramework::PluginMenuTools::_ProcessEvent(CTRPluginFramework::Event&)::selector
+0707bc44 00000004 D CTRPluginFramework::Screenshot::Screens
+0707bc48 00000004 D CTRPluginFramework::Screenshot::Hotkeys
+0707bc4c 00000001 D CTRPluginFramework::SystemImpl::Language
+0707bc4d 00000001 d CTRPluginFramework::EventManager::PopEvent(CTRPluginFramework::Event&, bool)::refresh
+0707bc50 00000004 D Search15
+0707bc54 00000004 D UnCheckedCheckbox
+0707bc58 00000004 D Unsplash15
+0707bc5c 00000004 D Plus25
+0707bc60 00000004 D GameControllerFilled25
+0707bc64 00000004 D About15
+0707bc68 00000004 D Trash25
+0707bc6c 00000004 D Cut25
+0707bc70 00000004 D CloseWindow20
+0707bc74 00000004 D AddFavoriteFilled25
+0707bc78 00000004 D ClearSymbolFilled15
+0707bc7c 00000004 D ClipboardFilled25
+0707bc80 00000004 D CheckedCheckbox
+0707bc84 00000004 D CutFilled25
+0707bc88 00000004 D CapsLockOn15
+0707bc8c 00000004 D TrashFilled25
+0707bc90 00000004 D RAM15
+0707bc94 00000004 D More15
+0707bc98 00000004 D InfoFilled25
+0707bc9c 00000004 D CloseWindowFilled20
+0707bca0 00000004 D HandCursor15
+0707bca4 00000004 D EnterKey15
+0707bca8 00000004 D Duplicate25
+0707bcac 00000004 D Settings15
+0707bcb0 00000004 D File15
+0707bcb4 00000004 D AddFavorite25
+0707bcb8 00000004 D Edit25
+0707bcbc 00000004 D DuplicateFilled25
+0707bcc0 00000004 D Save25
+0707bcc4 00000004 D Clipboard25
+0707bcc8 00000004 D Info25
+0707bccc 00000004 D EditFilled25
+0707bcd0 00000004 D KeyboardFilled25
+0707bcd4 00000004 D PlusFilled25
+0707bcd8 00000004 D Shutdown15
+0707bcdc 00000004 D ClearSymbol15
+0707bce0 00000004 D Maintenance15
+0707bce4 00000004 D Controller15
+0707bce8 00000004 D Grid15
+0707bcec 00000004 D Keyboard25
+0707bcf0 00000004 D CapsLockOnFilled15
+0707bcf4 00000004 D UserManualFilled15
+0707bcf8 00000004 D Rocket40
+0707bcfc 00000004 D Star15
+0707bd00 00000004 D EnterKeyFilled15
+0707bd04 00000004 D GameController25
+0707bd08 00000004 D FolderFilled
+0707bd0c 00000004 D Restart15
+0707bd10 000001f4 D opcode_names
+0707bf04 D __dso_handle
+0707bf08 00000004 D __cxxabiv1::__terminate_handler
+0707bf0c 00000004 D __cxxabiv1::__unexpected_handler
+0707bf10 00000004 D _impure_ptr
+0707bf18 00000460 d impure_data
+0707c378 00000408 D __malloc_av_
+0707c780 00000004 D __malloc_sbrk_base
+0707c784 00000004 D __malloc_trim_threshold
+0707c788 0000000c d __malloc_recursive_mutex
+0707c794 00000004 d __tz_mutex
+0707c798 00000008 D _tzname
+0707c7a0 0000000c D __atexit_recursive_mutex
+0707c7b0 00000058 d tzinfo
+0707c808 00000002 d numempty
+0707c80c 0000016c D __global_locale
+0707c978 00000004 D environ
+0707c97c 0000000c d __env_recursive_mutex
+0707c988 D __TMC_END__
+0707c998 d _GLOBAL_OFFSET_TABLE_
+0707c9a4 D __tdata_lma
+0707c9b0 t __frame_dummy_init_array_entry
+0707c9b0 T __init_array_start
+0707c9b0 B __preinit_array_end
+0707c9b0 B __preinit_array_start
+0707c9b0 D __tdata_lma_end
+0707ca08 t __do_global_dtors_aux_fini_array_entry
+0707ca08 T __init_array_end
+0707ca0c B __c_bss_start
+0707ca0c 00000004 B CTRPluginFramework::offset
+0707ca10 00000004 b CTRPluginFramework::freefly(CTRPluginFramework::MenuEntry*)::x
+0707ca14 00000004 b CTRPluginFramework::freefly(CTRPluginFramework::MenuEntry*)::y
+0707ca18 00000004 b CTRPluginFramework::rapidFire(CTRPluginFramework::MenuEntry*)::counter
+0707ca1c 00000004 b CTRPluginFramework::ToggleTouchscreenForceOn()::patchAddress
+0707ca20 00000004 b CTRPluginFramework::ToggleTouchscreenForceOn()::original
+0707ca24 00000004 b guard variable for CTRPluginFramework::ToggleTouchscreenForceOn()::pattern
+0707ca28 0000000c b CTRPluginFramework::ToggleTouchscreenForceOn()::pattern
+0707ca34 00000004 b guard variable for CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::g_Multipliers
+0707ca38 0000000c b CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::g_Multipliers
+0707ca44 00000004 b guard variable for CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::multipliers
+0707ca48 0000000c b CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::multipliers
+0707ca54 00000004 b CTRPluginFramework::setSpeed(CTRPluginFramework::MenuEntry*)::choice
+0707ca58 00000004 b guard variable for CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
+0707ca5c 0000000c b CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
+0707ca68 00000004 b guard variable for CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
+0707ca6c 0000000c b CTRPluginFramework::setPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
+0707ca78 00000004 b guard variable for CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::gpowerUps
+0707ca7c 0000000c b CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::gpowerUps
+0707ca88 00000004 b guard variable for CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
+0707ca8c 0000000c b CTRPluginFramework::setBottomPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
+0707ca98 00000004 b guard variable for CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
+0707ca9c 0000000c b CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::g_powerUps
+0707caa8 00000004 b guard variable for CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
+0707caac 0000000c b CTRPluginFramework::setOverworldPowerUp(CTRPluginFramework::MenuEntry*)::powerUps
+0707cab8 00000004 b g_onLoadCroLock
+0707cabc 00000004 B g_mainThread
+0707cac0 00000004 B CTRPluginFramework::g_keepEvent
+0707cac4 00000004 B CTRPluginFramework::g_continueGameEvent
+0707cac8 0000005c b CTRPluginFramework::exception_data
+0707cb24 00000004 B CTRPluginFramework::g_keepThreadHandle
+0707cb28 00000018 b g_onLoadCroHook
+0707cb40 00000008 B CTRPluginFramework::_sdmcArchive
+0707cb48 00000004 B g_gspEventThreadPriority
+0707cb4c 00000004 B CTRPluginFramework::g_resumeEvent
+0707cb50 00001000 b CTRPluginFramework::keepThreadStack
+0707db50 00000004 B __ctru_heap_size
+0707db54 00000004 B CTRPluginFramework::Color::Black
+0707db58 00000004 B CTRPluginFramework::Color::White
+0707db5c 00000004 B CTRPluginFramework::Color::Red
+0707db60 00000004 B CTRPluginFramework::Color::Lime
+0707db64 00000004 B CTRPluginFramework::Color::Blue
+0707db68 00000004 B CTRPluginFramework::Color::Yellow
+0707db6c 00000004 B CTRPluginFramework::Color::Cyan
+0707db70 00000004 B CTRPluginFramework::Color::Magenta
+0707db74 00000004 B CTRPluginFramework::Color::Silver
+0707db78 00000004 B CTRPluginFramework::Color::Gray
+0707db7c 00000004 B CTRPluginFramework::Color::Maroon
+0707db80 00000004 B CTRPluginFramework::Color::Olive
+0707db84 00000004 B CTRPluginFramework::Color::Green
+0707db88 00000004 B CTRPluginFramework::Color::Purple
+0707db8c 00000004 B CTRPluginFramework::Color::Teal
+0707db90 00000004 B CTRPluginFramework::Color::Navy
+0707db94 00000004 B CTRPluginFramework::Color::BlackGrey
+0707db98 00000004 B CTRPluginFramework::Color::Brown
+0707db9c 00000004 B CTRPluginFramework::Color::DarkGrey
+0707dba0 00000004 B CTRPluginFramework::Color::DeepSkyBlue
+0707dba4 00000004 B CTRPluginFramework::Color::DimGrey
+0707dba8 00000004 B CTRPluginFramework::Color::DodgerBlue
+0707dbac 00000004 B CTRPluginFramework::Color::Gainsboro
+0707dbb0 00000004 B CTRPluginFramework::Color::ForestGreen
+0707dbb4 00000004 B CTRPluginFramework::Color::LimeGreen
+0707dbb8 00000004 B CTRPluginFramework::Color::Orange
+0707dbbc 00000004 B CTRPluginFramework::Color::SkyBlue
+0707dbc0 00000004 B CTRPluginFramework::Color::Turquoise
+0707dbc4 00000004 b CTRPluginFramework::g_runningInstance
+0707dbc8 00000004 b CTRPluginFramework::ConvertToFloat(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
+0707dbd0 00000008 b CTRPluginFramework::ConvertToDouble(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
+0707dbd8 00000008 b CTRPluginFramework::ConvertToU64(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
+0707dbe0 00000004 b CTRPluginFramework::ConvertToU32(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
+0707dbe4 00000001 b CTRPluginFramework::ConvertToU8(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
+0707dbe6 00000002 b CTRPluginFramework::ConvertToU16(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::temp
+0707dbe8 00000180 b CTRPluginFramework::g_keyName
+0707dd68 00000004 B CTRPluginFramework::__fileHandle
+0707dd70 00000008 B CTRPluginFramework::Time::Zero
+0707dd78 00000004 B CTRPluginFramework::System::OnAbort
+0707dd7c 00000004 B CTRPluginFramework::Controller::_keysDown
+0707dd80 00000004 B CTRPluginFramework::Controller::_keysHeld
+0707dd84 00000004 B CTRPluginFramework::Controller::_keysReleased
+0707dd88 000009c4 b CTRPluginFramework::g_rng
+0707e750 00000001 B CTRPluginFramework::Preferences::EcoMemoryMode
+0707e754 00000004 B CTRPluginFramework::Preferences::topBackgroundImage
+0707e758 00000004 B CTRPluginFramework::Preferences::bottomBackgroundImage
+0707e75c 00000001 B CTRPluginFramework::Preferences::AutoLoadCheats
+0707e75d 00000001 B CTRPluginFramework::Preferences::AutoLoadFavorites
+0707e75e 00000001 B CTRPluginFramework::Preferences::AutoSaveCheats
+0707e75f 00000001 B CTRPluginFramework::Preferences::AutoSaveFavorites
+0707e760 00000001 B CTRPluginFramework::Preferences::DrawTouchCursor
+0707e761 00000001 B CTRPluginFramework::Preferences::ShowBottomFps
+0707e762 00000001 B CTRPluginFramework::Preferences::ShowTopFps
+0707e763 00000001 B CTRPluginFramework::Preferences::UseFloatingBtn
+0707e764 00000001 B CTRPluginFramework::Preferences::_cheatsAlreadyLoaded
+0707e765 00000001 B CTRPluginFramework::Preferences::_favoritesAlreadyLoaded
+0707e768 00000070 B CTRPluginFramework::Preferences::Settings
+0707e7d8 00000018 B CTRPluginFramework::Preferences::CheatsFile[abi:cxx11]
+0707e7f0 00000018 B CTRPluginFramework::Preferences::ScreenshotPath[abi:cxx11]
+0707e808 00000018 B CTRPluginFramework::Preferences::ScreenshotPrefix[abi:cxx11]
+0707e820 00000001 B CTRPluginFramework::Preferences::DisplayFilesLoading
+0707e821 00000001 B CTRPluginFramework::Preferences::DrawTouchCoord
+0707e822 00000001 B CTRPluginFramework::Preferences::InjectBOnMenuClose
+0707e824 00000004 b CTRPluginFramework::defaultSysFont
+0707e828 00000004 B CTRPluginFramework::g_fontAllocated
+0707e82c 00000004 b CTRPluginFramework::tileData
+0707e830 00000004 b CTRPluginFramework::glyph
+0707e834 0000000c B CTRPluginFramework::Font::_mutex
+0707e840 00000004 B CTRPluginFramework::g_glyphAllocated
+0707e844 00000028 B CTRPluginFramework::Window::BottomWindow
+0707e86c 00000028 B CTRPluginFramework::Window::TopWindow
+0707e894 00000004 B CTRPluginFramework::RendererPriv::g_customColor
+0707e898 00000008 B CTRPluginFramework::Renderer::hookContext
+0707e8a0 00000004 b guard variable for CTRPluginFramework::Renderer::EndFrame(bool)::background
+0707e8a4 00000004 b CTRPluginFramework::Renderer::EndFrame(bool)::background
+0707e8a8 00000004 b guard variable for CTRPluginFramework::Renderer::DrawRoundedRectangle(CTRPluginFramework::Rect<int> const&, CTRPluginFramework::Color const&, CTRPluginFramework::Color const&)::_lines
+0707e8ac 0000000c b CTRPluginFramework::Renderer::DrawRoundedRectangle(CTRPluginFramework::Rect<int> const&, CTRPluginFramework::Color const&, CTRPluginFramework::Color const&)::_lines
+0707e8b8 0000000c B CTRPluginFramework::OSDImpl::RecLock
+0707e8c4 0000000c B CTRPluginFramework::OSDImpl::Notifications[abi:cxx11]
+0707e8d0 00000018 B CTRPluginFramework::OSDImpl::TopScreen
+0707e8e8 00000018 B CTRPluginFramework::OSDImpl::BottomScreen
+0707e900 00000001 B CTRPluginFramework::OSDImpl::IsFramePaused
+0707e904 00000008 B CTRPluginFramework::OSDImpl::OnFramePaused
+0707e90c 00000004 B CTRPluginFramework::OSDImpl::FramesToPlay
+0707e910 00000008 B CTRPluginFramework::OSDImpl::OnFrameResume
+0707e918 00000018 B CTRPluginFramework::OSDImpl::OSDHook
+0707e930 00000010 b CTRPluginFramework::InstallOSD()::returnCode
+0707e940 00000004 B CTRPluginFramework::OSDImpl::HookReturn
+0707e944 00000008 B CTRPluginFramework::OSDImpl::OnNewFrameEvent
+0707e94c 00000024 B CTRPluginFramework::OSDImpl::FloatingBtn
+0707e970 0000000c B CTRPluginFramework::OSDImpl::Callbacks
+0707e97c 00000004 b CTRPluginFramework::g_second
+0707e980 00000010 b CTRPluginFramework::g_fpsClock
+0707e990 00000004 B CTRPluginFramework::OSDImpl::WaitingForScreenshot
+0707e994 00000001 B CTRPluginFramework::OSDImpl::DrawSaveIcon
+0707e995 00000001 B CTRPluginFramework::OSDImpl::MessColors
+0707e998 00000004 B CTRPluginFramework::PluginMenuImpl::_runningInstance
+0707e99c 00000004 b CTRPluginFramework::PluginMenuImpl::Run()::count
+0707e9a0 00000004 b guard variable for CTRPluginFramework::PluginMenuImpl::Run()::konamicode
+0707e9a8 00000020 b CTRPluginFramework::PluginMenuImpl::Run()::konamicode
+0707e9c8 00000004 B CTRPluginFramework::MenuItem::_uidCounter
+0707e9d0 00000004 b CTRPluginFramework::g_ctrpfString
+0707e9d4 00000004 b CTRPluginFramework::g_bymeString
+0707e9d8 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::fastScroll
+0707e9e0 00000008 b CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::fastScroll
+0707e9e8 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
+0707e9f0 00000008 b CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
+0707e9f8 00000004 b CTRPluginFramework::PluginMenuHome::_ProcessEvent(CTRPluginFramework::Event&)::last
+0707e9fc 00000004 b CTRPluginFramework::PluginMenuHome::_showStarredBtn_OnClick()::bak
+0707ea00 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::_RenderBottom()::creditClock
+0707ea08 00000008 b CTRPluginFramework::PluginMenuHome::_RenderBottom()::creditClock
+0707ea10 00000004 b guard variable for CTRPluginFramework::PluginMenuHome::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, int&, CTRPluginFramework::Time&)::top
+0707ea14 00000004 b CTRPluginFramework::PluginMenuHome::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, int&, CTRPluginFramework::Time&)::top
+0707ea18 00000004 b CTRPluginFramework::g_mode
+0707ea1c 00000004 b CTRPluginFramework::g_OpenFileLock
+0707ea20 00000004 b CTRPluginFramework::g_HookMode
+0707ea28 00000040 b CTRPluginFramework::g_hookExportFile
+0707ea68 00000010 b CTRPluginFramework::g_returncode
+0707ea78 00000018 b CTRPluginFramework::g_FsTryOpenFileHook
+0707ea90 00000004 B CTRPluginFramework::g_FsTryOpenFileAddress
+0707ea94 00000001 b CTRPluginFramework::InitFsTryOpenFileHook()::isInitialized
+0707ea98 00000004 b CTRPluginFramework::g_screenshotEntry
+0707ea9c 00000004 b guard variable for CTRPluginFramework::PluginMenuTools::_RenderBottom()::xpos
+0707eaa0 00000004 b CTRPluginFramework::PluginMenuTools::_RenderBottom()::xpos
+0707eaa4 00000004 b guard variable for CTRPluginFramework::PluginMenuTools::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::task
+0707eaa8 00000004 b CTRPluginFramework::PluginMenuTools::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::task
+0707eaac 00000004 b guard variable for CTRPluginFramework::SubMenu::Draw()::background
+0707eab0 00000010 b CTRPluginFramework::SubMenu::Draw()::background
+0707eac0 00000004 B CTRPluginFramework::__g_hexEditor
+0707eac4 00000004 b guard variable for CTRPluginFramework::HexEditor::_PromptForAddress(int)::background
+0707eac8 00000010 b CTRPluginFramework::HexEditor::_PromptForAddress(int)::background
+0707ead8 00000001 b CTRPluginFramework::HexEditor::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&)::keysAreDisabled
+0707eadc 00000004 b guard variable for CTRPluginFramework::GuideReader::Draw()::background
+0707eae0 00000010 b CTRPluginFramework::GuideReader::Draw()::background
+0707eaf0 00000010 b CTRPluginFramework::KeyboardImpl::_RenderTop()::background2
+0707eb00 00000010 b CTRPluginFramework::KeyboardImpl::_RenderTop()::background1
+0707eb10 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderTop()::background1
+0707eb14 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderTop()::background2
+0707eb18 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderBottom()::background
+0707eb1c 00000010 b CTRPluginFramework::KeyboardImpl::_RenderBottom()::background
+0707eb2c 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderBottom()::background2
+0707eb30 00000010 b CTRPluginFramework::KeyboardImpl::_RenderBottom()::background2
+0707eb40 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_RenderBottom()::clampArea
+0707eb44 00000010 b CTRPluginFramework::KeyboardImpl::_RenderBottom()::clampArea
+0707eb54 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_CheckKeys()::backspacetimer
+0707eb58 00000008 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::backspacetimer
+0707eb60 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastModeWaitTime
+0707eb68 00000008 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastModeWaitTime
+0707eb70 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastClearingFrame
+0707eb78 00000008 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::FastClearingFrame
+0707eb80 00000004 b CTRPluginFramework::KeyboardImpl::_CheckKeys()::backspaceFastMode
+0707eb84 0000000c B CTRPluginFramework::KeyboardImpl::_QwertyKeys
+0707eb90 0000000c B CTRPluginFramework::KeyboardImpl::_DecimalKeys
+0707eb9c 0000000c B CTRPluginFramework::KeyboardImpl::_HexaDecimalKeys
+0707eba8 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
+0707ebb0 00000008 b CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::inputClock
+0707ebb8 00000004 b guard variable for CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::buttons
+0707ebbc 00000010 b CTRPluginFramework::KeyboardImpl::_ProcessEvent(CTRPluginFramework::Event&)::buttons
+0707ebcc 00000004 b CTRPluginFramework::__pmARinstance
+0707ebd0 00000004 b guard variable for CTRPluginFramework::PluginMenuActionReplay::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time const&)::top
+0707ebd4 00000004 b CTRPluginFramework::PluginMenuActionReplay::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time const&)::top
+0707ebd8 00000010 b CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background
+0707ebe8 00000010 b CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background2
+0707ebf8 00000004 b guard variable for CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background
+0707ebfc 00000004 b guard variable for CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::background2
+0707ec00 00000004 b guard variable for CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::waitLogo
+0707ec08 00000010 b CTRPluginFramework::PluginMenuSearch::_ShowProgressWindow() const::waitLogo
+0707ec18 00000004 b CTRPluginFramework::g_radioId
+0707ec1c 00000004 B CTRPluginFramework::PluginMenuExecuteLoop::_firstInstance
+0707ec20 00000004 B CTRPluginFramework::PluginMenuExecuteLoop::_builtinLock
+0707ec24 00000004 B CTRPluginFramework::PluginMenuExecuteLoop::_arLock
+0707ec28 00000004 B CTRPluginFramework::_pool
+0707ec30 00000008 B CTRPluginFramework::Screenshot::_timer
+0707ec38 00000008 B CTRPluginFramework::Screenshot::_readyEvent
+0707ec40 00000008 B CTRPluginFramework::Screenshot::_resumeEvent
+0707ec48 00000018 B CTRPluginFramework::Screenshot::Prefix[abi:cxx11]
+0707ec60 00000004 B CTRPluginFramework::Screenshot::_filecount
+0707ec64 00000018 B CTRPluginFramework::Screenshot::Path[abi:cxx11]
+0707ec7c 00000004 B CTRPluginFramework::Screenshot::_display
+0707ec80 00000004 B CTRPluginFramework::Screenshot::_mode
+0707ec88 00000008 B CTRPluginFramework::Screenshot::Timer
+0707ec90 00000001 B CTRPluginFramework::Screenshot::IsEnabled
+0707ec94 00000004 B CTRPluginFramework::Screenshot::_task
+0707ec98 00000004 B CTRPluginFramework::Screenshot::_count
+0707ec9c 00000008 b CTRPluginFramework::g_sleepEvent
+0707eca4 00000001 B CTRPluginFramework::SystemImpl::IsNew3DS
+0707eca8 00000004 B CTRPluginFramework::SystemImpl::CFWVersion
+0707ecac 00000004 B CTRPluginFramework::SystemImpl::RosalinaHotkey
+0707ecb0 00000004 B CTRPluginFramework::SystemImpl::AptStatus
+0707ecb4 00000004 B CTRPluginFramework::HookManager::instance
+0707ecb8 00000078 B CTRPluginFramework::Scheduler::_singleton
+0707ed30 00000040 b CTRPluginFramework::_topBuf
+0707ed70 00000004 B CTRPluginFramework::ScreenImpl::Top
+0707ed74 00000040 b CTRPluginFramework::_botBuf
+0707edb4 00000004 B CTRPluginFramework::ScreenImpl::Bottom
+0707edb8 0000000c b CTRPluginFramework::Heap::_mutex
+0707edc4 00000004 B CTRPluginFramework::Heap::__ctrpf_heap
+0707edc8 00000004 B CTRPluginFramework::Heap::__ctrpf_heap_size
+0707edcc 00000008 b CTRPluginFramework::Heap::g_heapPool
+0707edd4 0000000c b sAddrMap
+0707ede0 00000018 B CTRPluginFramework::FSPath::CurrentWorkingDirectory[abi:cxx11]
+0707edf8 0000000c B CTRPluginFramework::FSPath::FSMutex
+0707ee08 00000004 B CTRPluginFramework::ProcessImpl::KProcessPtr
+0707ee0c 00000064 B CTRPluginFramework::ProcessImpl::CodeSet
+0707ee70 00000004 B CTRPluginFramework::ProcessImpl::ProcessId
+0707ee74 00000004 B CTRPluginFramework::ProcessImpl::MainThread
+0707ee78 00000008 B CTRPluginFramework::ProcessImpl::TitleId
+0707ee80 00000004 B CTRPluginFramework::ProcessImpl::ProcessHandle
+0707ee84 00000004 B CTRPluginFramework::ProcessImpl::IsPaused
+0707ee88 0000000c B CTRPluginFramework::ProcessImpl::MemoryMutex
+0707ee94 0000000c B CTRPluginFramework::ProcessImpl::MemRegions
+0707eea0 00000010 B CTRPluginFramework::ProcessImpl::InvalidRegion
+0707eeb0 00000001 b CTRPluginFramework::EventManager::ProcessEvents()::isTouching
+0707eeb2 00000004 b CTRPluginFramework::EventManager::ProcessEvents()::firstTouch
+0707eeb8 0000000c b _mutex
+0707eec4 00000008 b sVramPool
+0707eecc 0000000c b sAddrMap
+0707eed8 00000004 b srvRefCount
+0707eedc 00000004 b srv2Handle
+0707eee0 00000004 b errfRefCount
+0707eee4 00000004 b errfHandle
+0707eee8 00000004 b sharedFontAddr
+0707eeec 00000004 b arbiter
+0707eef0 00000004 b cfguRefCount
+0707eef4 00000004 b cfguHandle
+0707eef8 00000004 b fsuHandle
+0707ef00 00000080 b fsExemptArchives
+0707ef80 00000004 b fsuRefCount
+0707ef84 00000001 B fs
+0707ef88 0000000c b aptFirstHook
+0707ef94 00000004 b serviceName.7785
+0707ef98 00000004 b aptRefCount
+0707ef9c 0000000c b aptEvents
+0707efa8 00000008 b aptSleepEvent
+0707efb0 00000004 b aptEventHandlerThread
+0707efb4 00000004 b aptMessageFunc
+0707efb8 00000004 b aptMessageFuncData
+0707efbc 00000001 b aptHomeButtonState
+0707efbd 00000001 b flagInit.8135
+0707efbe 00000001 b flagValue.8136
+0707efc0 00001000 b aptParameters
+0707ffc0 00001000 b __stack
+07080fc0 00000004 b amRefCount
+07080fc4 00000004 b amHandle
+07080fc8 00000004 b acRefCount
+07080fcc 00000004 b acHandle
+07080fd0 00000004 b hidRefCount
+07080fd4 00000004 b kOld
+07080fd8 00000004 b kHeld
+07080fdc 00000004 b cPos
+07080fe0 00000004 b tPos
+07080fe4 00000006 b aVec
+07080fea 00000006 b gRate
+07080ff0 00000004 b kDown
+07080ff4 00000004 b kUp
+07080ff8 00000004 b gspEventData
+07080ffc 00000038 b gspEvents
+07081034 0000001c b gspEventCounts
+07081050 00000001 b gspRunEvents
+07081054 00000004 b gspRefCount
+07081058 00000004 b gfxSharedMemory
+0708105c 00000001 b gfxThreadID
+07081060 00000004 b irrstRefCount
+07081064 00000004 b kHeld
+07081068 00000004 b csPos
+0708106c 00000004 b g_mainThreadVars
+07081070 b saved_stack
+07081078 00000004 b guard variable for CTRPluginFramework::LineWriter::endl[abi:cxx11]()::end
+0708107c 00000018 b CTRPluginFramework::LineWriter::endl[abi:cxx11]()::end
+07081094 0000000c B CTRPluginFramework::g_codeTypes
+070810a0 00000004 b guard variable for CTRPluginFramework::ActionReplay_ProcessString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::colors
+070810a4 0000000c b CTRPluginFramework::ActionReplay_ProcessString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)::colors
+070810b0 00000001 b CTRPluginFramework::g_condAgainstData
+070810b1 00000001 b CTRPluginFramework::g_newCondDataToggle
+070810b4 00000004 b CTRPluginFramework::__arCodeEditor
+070810b8 00000004 b guard variable for CTRPluginFramework::ARCodeEditor::_ReloadCodeLines()::tempar
+070810bc 0000000c b CTRPluginFramework::ARCodeEditor::_ReloadCodeLines()::tempar
+070810c8 00000001 b CTRPluginFramework::ARCodeEditor::operator()(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&)::isInHexEditor
+070810d0 00000004 b guard variable for CTRPluginFramework::Button::Update(bool, CTRPluginFramework::Vector<int> const&)::halfSecond
+070810d8 00000008 b CTRPluginFramework::Button::Update(bool, CTRPluginFramework::Vector<int> const&)::halfSecond
+070810e0 00000004 b guard variable for CTRPluginFramework::GatewayRAMDumper::_DrawProgress()::logo
+070810e8 00000010 b CTRPluginFramework::GatewayRAMDumper::_DrawProgress()::logo
+070810f8 00000001 b CTRPluginFramework::g_progressLoop
+07081100 00000004 b guard variable for CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_fastScroll
+07081108 00000008 b CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_fastScroll
+07081110 00000004 b guard variable for CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_startFastScroll
+07081118 00000008 b CTRPluginFramework::SearchMenu::ProcessEvent(std::vector<CTRPluginFramework::Event, std::allocator<CTRPluginFramework::Event> >&, CTRPluginFramework::Time&)::_startFastScroll
+07081120 00000004 b CTRPluginFramework::__converter
+07081124 00000008 b sMappablePool
+0708112c 0000000c b sAddrMap
+07081138 00000004 B CTRPluginFramework::ARHandler::ActiveData
+0708113c 00000001 B CTRPluginFramework::ARHandler::ExitCodeImmediately
+07081140 00000008 B CTRPluginFramework::ARHandler::Offset
+07081148 00000004 B CTRPluginFramework::ARHandler::ActiveOffset
+0708114c 00000010 B CTRPluginFramework::ARHandler::Data
+0708115c 00000008 B CTRPluginFramework::ARHandler::Storage
+07081164 00000004 B CTRPluginFramework::ARHandler::ActiveStorage
+07081168 00000001 b CTRPluginFramework::ToggleFloat
+0708116c 00000004 b CTRPluginFramework::g_context
+07081170 00000fa0 b CTRPluginFramework::arStack
+07082110 b completed.10351
+07082114 b object.10356
+0708212c 00000004 b (anonymous namespace)::__new_handler
+07082130 00000010 b (anonymous namespace)::emergency_pool
+07082140 0000000c b eh_globals
+0708214c 00000010 V std::string::_Rep::_S_empty_rep_storage
+0708215c 00000028 B __malloc_current_mallinfo
+07082184 00000004 B __malloc_max_sbrked_mem
+07082188 00000004 B __malloc_max_total_mem
+0708218c 00000004 B __malloc_top_pad
+07082190 0000000b b __tzname_dst
+0708219c 0000000b b __tzname_std
+070821a8 00000004 b prev_tzenv
+070821ac 00000004 B _daylight
+070821b0 00000004 B _timezone
+070821b4 00000004 b initial_env
+070821b8 00000004 b heap_start.7414
+070821bc 00000004 B fake_heap_end
+070821c0 00000004 B fake_heap_start
+070821c4 00000048 B __syscalls
+0708220c 00000004 B g_sharedFont
+07082210 00000004 B charPerSheet
+07082214 00000004 B hidMemHandle
+07082218 00000004 B hidHandle
+0708221c 00000014 B hidEvents
+07082230 00000004 B hidSharedMem
+07082234 00000004 B gspEventThread
+07082238 00000004 B gspEvent
+0708223c 00000004 B gspGpuHandle
+07082240 00000004 B gspSharedMemHandle
+07082244 00000004 B gspThreadEventHandle
+07082248 00000004 B irrstMemHandle
+0708224c 00000004 B irrstEvent
+07082250 00000004 B irrstHandle
+07082254 00000004 B irrstSharedMem
+07082258 00000004 B __ctru_linear_heap
+0708225c 00000004 B __tmp
+07082260 00000004 B __ctru_linear_heap_size
+07082264 00000004 B __system_retAddr
+07082268 00000004 B __ctru_heap
+0708226c B __c_bss_end
+0708226c B __tls_start
+0708228c A __end__
+0708228c B __tls_end
